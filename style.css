@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Girlroy;
+    src: url(./font/Gilroy-Semibold.ttf) format('truetype'), 
+        url(./font/Gilroy-Bold.ttf) format('truetype'), 
+        url(./font/Gilroy-Medium.ttf) format('truetype'), 
+        url(./font/Gilroy-Regular.ttf) format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #ffffff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.link_navi {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.orange {
+    color: #f25822;
+
+}
+
+.black {
+    color: #000000;
+}
+
+main {
+    margin-top: 84px;
+    margin-bottom: 162px;
+
+}
+
+.content {
+    display: flex;
+    gap: 41px;
+}
+
+h1 {
+    margin-bottom: 17px;
+    width: 522px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+p {
+    width: 466px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.buttons {
+    margin-top: 37px;
+    display: flex;
+    align-items: baseline;
+    gap: 72px;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+    background: #f25822;
+    box-shadow: rgba(242, 88, 34, 0.2) 4px 4px 8px inset;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Gilroy;
+    font-weight: bold;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.btn_video {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #aaaaaa;
+    cursor: pointer;
+}
+
+.logos {
+    margin-top: 259px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 300px 370px 300px;
+    grid-template-rows: 291px;
+    gap: 100px;
+    grid-auto-flow: row;
+}
+.block {
+    padding-top: 40px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #ffffff;
+}
+.heading {
+    margin-top: 25px;
+    width: 215px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+.text {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    width: 310px;
+    height: 42px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+.read {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+.active {
+    box-shadow: rgba(0,0,0,0.06) 15px 25px 56px 6px;
+}
+footer {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #fafafa;
+}
+.letter {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    margin-bottom: 19px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+.txt {
+    width: 682px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color:#666666;
+}
+.cards {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.one {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.two {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 15px 25px 60px -5px;
+}
+.three {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cards h2 {
+    margin-top: 25px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.cards p {
+    margin-top: 22px;
+    width: 310px;
+    height: 63px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #aaaaaa;
+}
+.snap {
+    margin-top: 39px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background: #f25822;
+    border-radius: 50px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
